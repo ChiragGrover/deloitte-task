@@ -53,17 +53,19 @@ features/
  └── user/UserState.kt
 data/
  └── api/ (placeholder for network setup)
+
  
  Pattern Used: MVVM (Model-View-ViewModel)
 
 ## Testing Summary
-Type	Libraries	Purpose
-Unit Tests	JUnit • Mockito • Turbine	Validate ViewModel & Flow logic
-UI Tests	Compose UI Test • MockK	Verify composables render correctly
-Coroutine Tests	kotlinx-coroutines-test	Ensure structured concurrency and state emission
+| Type                | Libraries                 | Purpose                                          |
+| ------------------- | ------------------------- | ------------------------------------------------ |
+| **Unit Tests**      | JUnit • Mockito • Turbine | Validate ViewModel & Flow logic                  |
+| **UI Tests**        | Compose UI Test • MockK   | Verify composables render correctly              |
+| **Coroutine Tests** | kotlinx-coroutines-test   | Ensure structured concurrency and state emission |
+
 
 ## Screenshots
-User List Screen	User Detail Screen
 screenshots and video are placed inside the /screenshots folder at the project root.
 
 
