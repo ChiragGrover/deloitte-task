@@ -17,7 +17,7 @@ The goal was to demonstrate clean architecture, modern Android development pract
 | **Networking** | Retrofit + OkHttp + Gson |
 | **Image Loading** | Coil Compose |
 | **Navigation** | Jetpack Navigation Compose |
-| **Testing** | JUnit4 • MockK • Mockito • Turbine • Compose UI Test |
+| **Testing** | JUnit4 • MockK • Mockito • Compose UI Test |
 | **Build System** | Gradle (Kotlin DSL) |
 
 ---
@@ -70,9 +70,9 @@ screenshots and video are placed inside the /screenshots folder at the project r
 
 
 ## Notes
-Target SDK: 36
-Min SDK: 29
-Compose Compiler: 1.7.x
-Development Time: ~4–6 hours
-Focus: Architecture, Testability, and Compose best practices
-Testing Tools: JUnit, MockK, Mockito, Compose UI Test
+* Target SDK: 36
+* Min SDK: 29
+* Compose Compiler: 1.7.x
+* Development Time: ~4–6 hours
+* Focus: Architecture, Testability, and Compose best practices
+* Testing Tools: JUnit, MockK, Mockito, Compose UI Test
